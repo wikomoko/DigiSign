@@ -1,0 +1,116 @@
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-medium{
+    font-weight: 500;
+}
+.text-regular{
+    font-weight: 400;
+}
+.text-light{
+    font-weight: 300;
+}
+.text-size-30{
+    font-size: 30px;
+}
+.text-size-25{
+    font-size: 25px;
+}
+.text-size-24{
+    font-size: 24px;
+}
+.text-size-64{
+    font-size: 64px;
+}
+.text-size-32{
+    font-size: 32px;
+}
+.text-size-40{
+    font-size: 40px;
+}
+.text-size-20{
+    font-size: 20px;
+}
+.text-size-15{
+    font-size: 15px;
+}
+.text-size-50{
+    font-size: 50px;
+}
+.bg-color-scheme1{
+    background-color: #7A78D1;
+}
+.bg-color-scheme2{
+    background-color: #5D5D64;
+}
+.bg-color-scheme3{
+    background-color: #F6F4FF;
+}
+.bg-color-scheme4{
+    background-color: #F7F8F8;
+}
+.bg-color-scheme5{
+    background-color: #3BC6AF;
+}
+.bg-color-scheme6{
+    background-color: #C63B3B;
+}
+.bg-color-scheme7{
+    background-color: #FFE7EA;
+}
+.bg-color-scheme8{
+    background-color: #FFFBF0;
+}
+.bg-color-scheme9{
+    background-color: #FFC582;
+}
+.bg-color-scheme10{
+    background-color: #383638;
+}
+.bg-color-scheme11{
+    background-color: #F6F8FD;
+}
+
+.text-color-scheme1{
+    color: #7A78D1;
+}
+.text-color-scheme2{
+    color: #5D5D64;
+}
+.text-color-scheme3{
+    color: #F6F4FF;
+}
+.text-color-scheme4{
+    color: #F7F8F8;
+}
+.text-color-scheme5{
+    color: #3BC6AF;
+}
+.text-color-scheme6{
+    color: #C63B3B;
+}
+.text-color-scheme7{
+    color: #FFE7EA;
+}
+.text-color-scheme8{
+    color: #FFFBF0;
+}
+.text-color-scheme9{
+    color: #FFC582;
+}
+.text-color-scheme10{
+    color: #383638;
+}
+.btn-primary-hover:hover{
+    background-color: #6463cf;
+}
+.bg-custom-input{
+    background-color: #F7F8F8 !important;
+    height: 60px !important;
+}
+.btn-sidebar-hover:hover{
+    background-color: #7A78D1;
+}
