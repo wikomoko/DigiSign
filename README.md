@@ -1,64 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+![image](https://github.com/wikomoko/DigiSign/assets/61697475/a1814292-691e-4375-9402-58f0e5fbfc81)<h1>DigiSign</h1>
+<b>visit : <a href="https://demo-app-beta.000webhostapp.com/public/">https://demo-app-beta.000webhostapp.com/public/</a> for demo app </b>
+<br/>
+<a href="https://www.figma.com/file/UPJW06dkwpYm5WAdHxFurY/DigiSign?type=design&node-id=0%3A1&mode=design&t=MCtNSsPqVplnlGZb-1">Figma Design</a>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<hr/>
+🇺🇸
+<p>This is a Simpple web app for digital signature generator & validator. So everyoneis possible to make the QRCode/Digital Signatur for Free and use it for any purposes. The user can validate originality of its digital signature by scanning the code and it wil redirect to our velidation page ( without login )</p>
+🇮🇩
+<p>Ini adalah aplikasi web sederhana yang memunkinkan pengguna untuk membuat / mengeneratetanda tangan digital dalam bentuk QRCode. Sehingga nantinya dapat digunakan untuk berbagai keperluan penandatanganan. Keaslian TTD // QR juga dapat di cek / validasi dengan melakukan scan QRcodenya, nantinya akan langsung diarahkan (redirect) ke web dan menampilkan status keasliannya.</p>
+<hr/>
+<h2>Techstach</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Stack</th>
+            <th>Version</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Laravel</td>
+            <td>8</td>
+            <td><a href="https://laravel.com/docs/8.x">https://laravel.com/docs/8.x</a></td>
+        </tr>
+         <tr>
+            <td>Bootstrap + Jquery</td>
+            <td>5.1.3</td>
+             <td><a href="https://getbootstrap.com/">https://getbootstrap.com/</a></td>
+         </tr>
+         <tr>
+            <td>Figma</td>
+            <td>-</td>
+            <td><a href="https://www.figma.com">https://www.figma.com/</a></td>
+         </tr>
+         <tr>
+            <td>FileSaver.js</td>
+            <td>-</td>
+             <td><a href="https://github.com/eligrey/FileSaver.js">https://github.com/eligrey/FileSaver.js</a></td>
+         </tr>
+         <tr>
+            <td>dom-to-image.js</td>
+            <td>-</td>
+             <td><a href="https://github.com/tsayen/dom-to-image">https://github.com/tsayen/dom-to-image</a></td>
+         </tr>
+    </tbody>
+</table>
+<hr/>
+<h1>Features</h1>
+🇺🇸
+<ol>
+    <li>Generate QR Code</li>
+    <li>Validation QR Code</li>
+</ol>
+🇮🇩
+<ol>
+    <li>Membuat QR Code</li>
+    <li>Memeriksa Keaslian QR Code</li>
+</ol>
+<hr/>
+<h1>Screen Shoot</h1>
 
-## About Laravel
+<p>Landing Page</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![screencapture-digisign-test-2023-08-12-09_39_19](https://github.com/wikomoko/DigiSign/assets/61697475/efa9bff6-55f3-48f8-b2cf-f0bf20cb28f1)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p>Login Page</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![screencapture-digisign-test-login-2023-08-12-09_39_50](https://github.com/wikomoko/DigiSign/assets/61697475/c104e3ab-f4ca-45ff-a635-e679d1845622)
 
-## Learning Laravel
+<p>Home</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![screencapture-digisign-test-beranda-2023-08-12-09_43_03](https://github.com/wikomoko/DigiSign/assets/61697475/e7542a0e-fc2e-4172-b1cd-4a9c3092999d)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p>Generator QR</p>
 
-## Laravel Sponsors
+![screencapture-digisign-test-beranda-lihatttd-4-2023-08-12-09_43_19](https://github.com/wikomoko/DigiSign/assets/61697475/faa95d27-0b52-44d1-8988-5816dfcab067)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p>Validation Page</p>
 
-### Premium Partners
+![screencapture-digisign-test-beranda-lihatttd-4-2023-08-12-09_43_19](https://github.com/wikomoko/DigiSign/assets/61697475/a8dae65b-14cc-4b50-9205-46d47a71d79a)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
