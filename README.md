@@ -1,4 +1,4 @@
-![image](https://github.com/wikomoko/DigiSign/assets/61697475/a1814292-691e-4375-9402-58f0e5fbfc81)<h1>DigiSign</h1>
+
 <b>visit : <a href="https://demo-app-beta.000webhostapp.com/public/">https://demo-app-beta.000webhostapp.com/public/</a> for demo app </b>
 <br/>
 <a href="https://www.figma.com/file/UPJW06dkwpYm5WAdHxFurY/DigiSign?type=design&node-id=0%3A1&mode=design&t=MCtNSsPqVplnlGZb-1">Figma Design</a>
